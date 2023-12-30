@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="generated_job_description" label="Generated Job Description" language="en" table="x_1256160_resumeai_job_description">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>generated_job_description</element>
+            <help/>
+            <hint/>
+            <label>Generated Job Description</label>
+            <language>en</language>
+            <name>x_1256160_resumeai_job_description</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2023-12-01 18:52:43</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Generated Job Description</sys_name>
+            <sys_package display_value="ResumeAI" source="x_1256160_resumeai">dadfab16473e3110369ab60e316d43e3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ResumeAI">dadfab16473e3110369ab60e316d43e3</sys_scope>
+            <sys_update_name>sys_documentation_x_1256160_resumeai_job_description_generated_job_description_en</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2023-12-01 18:52:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

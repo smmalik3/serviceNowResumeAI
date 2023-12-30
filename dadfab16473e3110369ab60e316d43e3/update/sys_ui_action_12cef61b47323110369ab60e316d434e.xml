@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Generate Job Description</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint>Click to generate your job description</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate Job Description</name>
+        <onclick/>
+        <order>-201</order>
+        <script><![CDATA[function sendToChatGPT(jobDescription) {
+    var prompt = constructPrompt(jobDescription);
+    var response = callOpenAI(prompt);
+	current.setValue('generated_job_description', response);
+	current.update();
+    return response;
+}
+
+function constructPrompt(jobDescription) {
+    // Construct your prompt using the fields of the jobDescription object
+    // return 'Generate a job description for the following role:\nTitle: ' + jobDescription.title + '\nLocation: ' + jobDescription.location + '\nExperience: ' + jobDescription.yearsOfExperience + ' years\nSalary Range: ' + 'Minimum Salary=' + jobDescription.salaryMin + ' Maximum Salary=' + jobDescription.salaryMax + '\nAgency: ' + jobDescription.agency + '\nDescription:';
+	return 'Write a job description for a ' + jobDescription.agency + ' ' + jobDescription.title + ' with a ' + jobDescription.education + ' or ' + jobDescription.yearsOfExperience + ' years of experience. The job will pose a ' + jobDescription.sensitivity + ' risk to national security. The job is ' + jobDescription.classification + ' located in ' + jobDescription.location + ' with a salary range of ' + jobDescription.salaryMin + ' to ' + jobDescription.salaryMax + '. The position will require ' + jobDescription.travel + ' travel.';
+}
+
+function callOpenAI(prompt) {
+    try {
+        var requestBody = {
+            'prompt': prompt,
+            'max_tokens': 1000 // Adjust as needed
+        };
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        // restMessage.setEndpoint('https://api.openai.com/v1/engines/davinci/completions');
+		restMessage.setEndpoint('https://api.openai.com/v1/engines/text-davinci-003/completions');
+        restMessage.setHttpMethod('POST');
+        restMessage.setRequestHeader('Authorization', 'Bearer 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');
+        restMessage.setRequestHeader('Content-Type', 'application/json');
+        restMessage.setRequestBody(JSON.stringify(requestBody));
+
+        var response = restMessage.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+
+        if (httpStatus !== 200) {
+            gs.error('Error in calling OpenAI. HTTP Status: ' + httpStatus);
+            return 'Error in calling OpenAI. HTTP Status: ' + httpStatus;
+        }
+
+        var parsedResponse = JSON.parse(responseBody);
+        return parsedResponse.choices[0].text;
+    } catch (ex) {
+    gs.error('Error in callOpenAI: ' + ex.message);
+    return null;
+    }
+}
+
+// Example usage in a ServiceNow script
+var jobDescription = {
+    title: current.getValue('job_title'),
+    location: current.getValue('job_location'),
+    yearsOfExperience: current.getValue('years_of_experience'),
+	salaryMin: current.getValue('minimum_salary'),
+	salaryMax: current.getValue('maximum_salary'),
+    agency: current.getValue('agency'),
+	travel: current.getValue('travel_required'),
+	sensitivity: current.getValue('position_sensitivity_and_risk'),
+	education: current.getValue('preferred_education_level'),
+	classification: current.getValue('position_classfication')
+};
+
+var generatedDescription = sendToChatGPT(jobDescription);
+gs.info(generatedDescription);
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-04 17:35:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12cef61b47323110369ab60e316d434e</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Generate Job Description</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ResumeAI" source="x_1256160_resumeai">dadfab16473e3110369ab60e316d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ResumeAI">dadfab16473e3110369ab60e316d43e3</sys_scope>
+        <sys_update_name>sys_ui_action_12cef61b47323110369ab60e316d434e</sys_update_name>
+        <sys_updated_by>maxim</sys_updated_by>
+        <sys_updated_on>2023-12-13 01:37:45</sys_updated_on>
+        <table>x_1256160_resumeai_job_description</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
