@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f686ec7b47767110369ab60e316d4325" label="Resume" max_length="40" name="x_1256160_resumeai_resume" type="collection">
+        <element label="Job Description" max_length="32" name="job_description" reference="x_1256160_resumeai_job_description" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Resume" mandatory="true" max_length="40" name="resume" type="file_attachment"/>
+        <element label="Resume Analysis" max_length="1600" name="resume_analysis" type="string"/>
+        <element label="Resume Fit" max_length="40" name="resume_fit" type="string"/>
+    </element>
+</database>

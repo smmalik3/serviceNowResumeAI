@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d4703756473e3110369ab60e316d43b3" label="Job Description" max_length="40" name="x_1256160_resumeai_job_description" type="collection">
+        <element label="Agency" mandatory="true" max_length="40" name="agency" type="string"/>
+        <element label="Certifications" max_length="500" name="certifications" type="string"/>
+        <element label="Generated Job Description" max_length="1000" name="generated_job_description" type="string"/>
+        <element label="Job Location" mandatory="true" max_length="40" name="job_location" type="string"/>
+        <element display="true" label="Job Title" mandatory="true" max_length="40" name="job_title" type="string"/>
+        <element label="Job Type" max_length="40" name="job_type" type="string"/>
+        <element label="Maximum Salary" mandatory="true" max_length="40" name="maximum_salary" type="string"/>
+        <element label="Minimum Salary" mandatory="true" max_length="40" name="minimum_salary" type="string"/>
+        <element choice="1" label="Position Classfication" mandatory="true" max_length="40" name="position_classfication" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In-Person" sequence="0" value="in person"/>
+                <element inactive_on_update="false" label="Hybrid" sequence="1" value="hybrid"/>
+                <element inactive_on_update="false" label="Remote" sequence="2" value="remote"/>
+            </choice>
+        </element>
+        <element choice="3" label="Position Sensitivity and Risk" mandatory="true" max_length="40" name="position_sensitivity_and_risk" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Critical" sequence="0" value="non_critical"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="critical"/>
+                <element inactive_on_update="false" label="Special" sequence="2" value="special"/>
+            </choice>
+        </element>
+        <element label="Posting Name" max_length="40" name="posting_name" type="string"/>
+        <element choice="1" label="Preferred Education Level" mandatory="true" max_length="40" name="preferred_education_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High School Diploma or Equivalent" sequence="0" value="high school diploma"/>
+                <element inactive_on_update="false" label="Some College or Vocational Training" sequence="1" value="some college"/>
+                <element inactive_on_update="false" label="Associate's Degree" sequence="2" value="associate's degree"/>
+                <element inactive_on_update="false" label="Bachelor's Degree" sequence="3" value="bachelor's degree"/>
+                <element inactive_on_update="false" label="Master's Degree" sequence="4" value="master's degree"/>
+                <element inactive_on_update="false" label="Doctoral/Professional Degree" sequence="5" value="doctoral degree"/>
+            </choice>
+        </element>
+        <element label="Salary Range" mandatory="true" max_length="40" name="salary_range" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element choice="1" label="Travel Required" mandatory="true" max_length="40" name="travel_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Occasional" sequence="1" value="occasional"/>
+                <element inactive_on_update="false" label="Frequent" sequence="2" value="frequent"/>
+            </choice>
+        </element>
+        <element label="Years of Experience" mandatory="true" max_length="40" name="years_of_experience" type="string"/>
+    </element>
+</database>

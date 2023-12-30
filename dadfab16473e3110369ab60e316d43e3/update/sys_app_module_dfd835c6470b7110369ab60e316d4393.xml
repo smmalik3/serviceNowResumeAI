@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ResumeAI">5258f9c6470b7110369ab60e316d4383</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Job Descriptions</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1256160_resumeai_job_description</name>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>maxim</sys_created_by>
+        <sys_created_on>2023-12-13 01:21:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfd835c6470b7110369ab60e316d4393</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Job Descriptions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ResumeAI" source="x_1256160_resumeai">dadfab16473e3110369ab60e316d43e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ResumeAI">dadfab16473e3110369ab60e316d43e3</sys_scope>
+        <sys_update_name>sys_app_module_dfd835c6470b7110369ab60e316d4393</sys_update_name>
+        <sys_updated_by>maxim</sys_updated_by>
+        <sys_updated_on>2023-12-13 01:30:26</sys_updated_on>
+        <timeline_page/>
+        <title>Job Descriptions</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

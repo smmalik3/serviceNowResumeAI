@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="daa03b56473e3110369ab60e316d43ed" sys_domain="global" table="x_1256160_resumeai_job_description" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_title</element>
+            <position>0</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>fb681cce47837110369ab60e316d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agency</element>
+            <position>1</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>37681cce47837110369ab60e316d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_location</element>
+            <position>2</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>3b681cce47837110369ab60e316d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maximum_salary</element>
+            <position>3</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>3f681cce47837110369ab60e316d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minimum_salary</element>
+            <position>4</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>33681cce47837110369ab60e316d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position_classfication</element>
+            <position>5</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>37681cce47837110369ab60e316d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position_sensitivity_and_risk</element>
+            <position>6</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>3b681cce47837110369ab60e316d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_required</element>
+            <position>7</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>3f681cce47837110369ab60e316d4344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_education_level</element>
+            <position>8</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>33681cce47837110369ab60e316d4345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>years_of_experience</element>
+            <position>9</position>
+            <sys_created_by>will</sys_created_by>
+            <sys_created_on>2023-12-12 18:19:30</sys_created_on>
+            <sys_id>37681cce47837110369ab60e316d4345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1256160_resumeai_job_description" sys_domain="global" view="Default view">daa03b56473e3110369ab60e316d43ed</sys_ui_section>
+            <sys_updated_by>will</sys_updated_by>
+            <sys_updated_on>2023-12-12 18:19:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1256160_resumeai_job_description</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2023-12-01 18:26:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daa03b56473e3110369ab60e316d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1256160_resumeai_job_description</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ResumeAI" source="x_1256160_resumeai">dadfab16473e3110369ab60e316d43e3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ResumeAI">dadfab16473e3110369ab60e316d43e3</sys_scope>
+            <sys_update_name>sys_ui_section_daa03b56473e3110369ab60e316d43ed</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2023-12-01 18:26:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
